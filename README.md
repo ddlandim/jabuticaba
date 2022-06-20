@@ -2,7 +2,8 @@
 ![Jabuticaba icon](icon.png)
 
 ## About Jabuticaba
-![Jabuticaba draw](draw.png)
+![Jabuticaba draw](draw.png)  
+
 The jabuticaba project is a framework for developing and running machine learning project pipelines.
 currently contains 3 classes that do data preparation and splitting, and a class with a machine learning model, all of which use a helper class to manipulate the data during the pipeline.
 The objective of the project is to extend these classes so that they can be exported as containers with independent execution.
