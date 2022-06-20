@@ -1,0 +1,26 @@
+{
+    "msg":"DataSplit_1 conf file loaded",
+    "steps": {
+        "DataSplit_1" : {
+            "DataHandler" : {
+                "pandas" : {
+                    "delimiter" : ",",
+                    "header" : "infer",
+                    "index_col" : "GLOBO_ID"
+                }
+            },
+            "target_path" : "../Datalake/transformed/target.csv",
+            "features_path" : "../Datalake/transformed/features.csv",
+            "split_path" : "../Datalake/splited",
+            "split_fn" : {
+                "lib" : "sklearn",
+                "function" : "train_test_split",
+                "args" : {
+                    "train_size" : 0.7
+                }
+            }
+        },
+        "Class_1" : { args ...},
+        "ModelClass_1" : { args }
+    }
+}

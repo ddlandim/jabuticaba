@@ -1,0 +1,32 @@
+{
+    "msg":"DataPrep_1 conf file loaded",
+    "steps": {
+        "DataPrep_1":{
+            "DataHandler" : {
+                "pandas" : {
+                    "delimiter" : ",",
+                    "header" : "infer",
+                    "index_col" : "GLOBO_ID"
+                }
+            },
+            "input_path": "../Datalake/raw/desafiocartola.csv",
+            "target_column": "pro_target",
+            "target_path" : "../Datalake/transformed/target.csv",
+            "features_path" : "../Datalake/transformed/features.csv",
+            "apply_functions" : {
+                "call_1": {
+                    "columns" : ["anos_desde_criacao", "instagram_num", "facebook_num", "min_camp", "interacoes_g1", "tempo_desperd", "iteracao_volei", "iteracao_atletismo"],
+                    "function" : "get_long_tail"
+                },
+                "call_2": {
+                    "columns" : ["pixels"],
+                    "function" : "get_total_pixels"
+                },
+                "call_3" : {
+                    "columns" : ["avg_3", "avg_4"],
+                    "function" : "ceil"
+                }
+            }
+        }
+    }
+}

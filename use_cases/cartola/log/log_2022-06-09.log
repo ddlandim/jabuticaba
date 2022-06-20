@@ -1,0 +1,10 @@
+Json conf and default conf file not loaded, check ./confs folder
+Traceback (most recent call last):
+  File ".\Src\main.py", line 44, in run
+    f = open(_conf_path)
+FileNotFoundError: [Errno 2] No such file or directory: './confs/default.json'
+run_steps fail
+Traceback (most recent call last):
+  File ".\Src\main.py", line 55, in run
+    run_steps(conf["steps"])
+UnboundLocalError: local variable 'conf' referenced before assignment
