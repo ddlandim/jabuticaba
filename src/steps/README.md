@@ -38,7 +38,7 @@ args_dict = {
 ```
 )
 
-# class DataSplit():
+# Classe  DataSplit():
 - Constructor com dicionário python, dataPrep_obj = DataPrep(args_dict)
 - Deve conter os parametros de contrução de um DataHandler contendo os parametros do manipulador de arquivos (pandas/spark) para o carregamento do dataframe
 exemplo:
