@@ -1,5 +1,5 @@
 # DIAGRAMA PARA EXECUÇÃO ON-PREMISSE / GKE
-![GKE_DIAGRAM](diagrama.jpg)
+![GKE_DIAGRAM](diagram.jpg)
 
 
 DATAPREP / TRANSFORMACAO -> executar main.py 
