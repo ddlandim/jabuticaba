@@ -25,6 +25,7 @@ PRE PROCESSAMENTO E TRANSFORMACOES (EXECUTAR NA RAIZ DO MAIN.PY)
 
 #############################
 TREINO
+```
 (datascience) PS C:\Users\douglas.diniz.landim\OneDrive - Accenture\Documents\Desafio_Eng_ML\Project> python .\Src\mlUtils\sklModel.py --path=".\Models\sklModel\" --train=".\Datalake\splited\20220609112022\"
 -- Epoch 1
 Norm: 5.25, NNZs: 28, Bias: 0.016876, T: 62558, Avg. loss: 1.373613
@@ -54,10 +55,11 @@ Saving sklModel object .\Models\sklModel\20220609130533_sklModelObj.joblib
 
 Saving sckitlearn Pipe object .\Models\sklModel\20220609130533_pipeModel.joblib
 
-
+```
 #############################
 
 PREDICAO
+```
 python .\Src\mlUtils\sklModel.py --path=".\Models\sklModel\propension_model_new.joblib" --predict=".\Datalake\splited\20220609112022\X_test.csv" --threshold=0.75
 (datascience) PS C:\Users\douglas.diniz.landim\OneDrive - Accenture\Documents\Desafio_Eng_ML\Project> python .\Src\mlUtils\sklModel.py --path=".\Models\sklModel\propension_model_new.joblib" --predict=".\Datalake\splited\20220609112022\X_test.csv" --threshold=0.75
 PIPE LOADED
@@ -91,9 +93,9 @@ Saving sckitlearn Pipe object .\Models\sklModel\20220609130719_pipeModel.joblib
 
 Saving predicted DF to .\Datalake\splited\20220609112022\X_test_y_predicted.csv
 
-
+```
 ### PRE PROCESSAMENTO E TRANSFORMACOES (EXECUTAR NA RAIZ DO MAIN.PY)
-
+```
 (datascience) PS C:\Users\douglas.diniz.landim\OneDrive - Accenture\Documents\Desafio_Eng_ML\Project\Src> python main.py
 Default conf file loaded
 INFO:Desafio_Eng_ML
@@ -226,3 +228,4 @@ GLOBO_ID
 130778             1
 132930             1
 (datascience) PS C:\Users\douglas.diniz.landim\OneDrive - Accenture\Documents\Desafio_Eng_ML\Project\Src>
+```
