@@ -12,7 +12,10 @@ each class is instantiated as a pipeline object and can be constructed with a .j
 O projeto jabuticaba é um framework para desenvolvimento e execução de pipelines de projetos de machine learning. Atualmente contém 3 classes que fazem preparação e divisão de dados e uma classe com um modelo de aprendizado de máquina do pacote scikit learning, todas usando uma classe auxiliar DataHandler para manipular os dados durante o pipeline. O objetivo do projeto é estender essas classes para que possam ser exportadas como containers com execução independente. Cada classe é instanciada como um objeto de pipeline e pode ser construída com um arquivo .json contendo os parâmetros de construção.
 
 ## Factory Method para DataPrep e DataSplit
-[Factory Method](./src/README.md)
-[DataPrep/Split](./src/steps/README.md)
-## Classes ML (execucao sem factory method)
-[DataPrep/Split](./src/mlUtils/README.md)
+- [Factory Method](./src/README.md)  
+
+- [DataPrep/Split](./src/steps/README.md)  
+
+## Classes ML (execucao sem factory method)  
+
+- [DataPrep/Split](./src/mlUtils/README.md)
